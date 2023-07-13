@@ -1,0 +1,39 @@
+
+.mainNavbar .navbar-brand{
+    width: 120px;
+}
+
+.mainNavbar .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.mainNavbar .navbar-nav .active>.nav-link,
+.mainNavbar .navbar-nav .nav-link.active,
+.mainNavbar .navbar-nav .nav-link.show,
+.mainNavbar .navbar-nav .show>.nav-link {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.mainNavbar .navbar-nav .nav-link:focus,
+.mainNavbar .navbar-nav .nav-link:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+/* ################################# MAINSlider CSS ######################################## */
+
+.mainSlider .carousel-item {
+    height: 450px;
+}
+
+.mainSlider .carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.mainSlider .carousel-caption {
+    bottom: auto;
+    top: 20%;
+}
