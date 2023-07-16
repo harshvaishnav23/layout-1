@@ -6,7 +6,6 @@ const tmSlider = document.getElementById('tmSlider')
 
 $('#tmSlider').owlCarousel({
     loop:true,
-    margin:10,
     nav:true,
     autoplay: true,
     autoplayTimeout: 3000,
@@ -19,7 +18,8 @@ $('#tmSlider').owlCarousel({
             items:3
         },
         1000:{
-            items:5
+            items:5,
+            margin:20
         }
     }
 })
