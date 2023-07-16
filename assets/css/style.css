@@ -1,5 +1,4 @@
-
-.mainNavbar .navbar-brand{
+.mainNavbar .navbar-brand {
     width: 120px;
 }
 
@@ -28,7 +27,7 @@
     height: 450px;
 }
 
-.mainSlider .carousel-item img{
+.mainSlider .carousel-item img {
     height: 100%;
     object-fit: cover;
 }
@@ -41,7 +40,7 @@
 
 /* ################################# paralax CSS ######################################## */
 
-.paralax{
+.paralax {
     /* background-image: linear-gradient(to right, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/lights.jpg); */
     background-position: center;
     background-attachment: fixed;
@@ -50,7 +49,7 @@
     position: relative;
 }
 
-.paralax::before{
+.paralax::before {
     content: '';
     position: absolute;
     top: 0;
@@ -60,31 +59,53 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.paralax.home{
+.paralax.home {
     background-image: url(../images/lights.jpg);
 }
 
-.paralax.video{
+.paralax.video {
     background-image: url(../images/media.jpg);
 }
 
-.video i{
+.video i {
     cursor: pointer;
 }
 
-.home-gallary a{
+.home-gallary a {
     height: 300px;
     width: 100%;
     display: inline-block;
 }
 
-.home-gallary a img{
+.home-gallary a img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.footer{
+.footer {
     background-color: #000;
 }
 
+
+/* ################################# About Us Section CSS ######################################## */
+
+
+#tmSlider .owl-nav {
+    position: absolute;
+    top: 25%;
+    left: -3%;
+    width: 106%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tmSlider .item {
+    text-align: justify;
+}
+
+#tmSlider figure img {
+    width: 80% !important;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
