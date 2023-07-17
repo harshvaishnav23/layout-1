@@ -109,3 +109,18 @@
     margin: 0 auto 10px;
     border-radius: 50%;
 }
+
+.staff img {
+    /* max-width: 100%; */
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    height: auto;
+}
+
+
+@media all and (max-width: 768px){
+    .news .form-inline .form-group {
+        flex: 0 0 100%;
+    }
+}
